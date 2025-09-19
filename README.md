@@ -31,6 +31,60 @@ An advanced Retrieval-Augmented Generation (RAG) system for querying and answeri
 
 Example Output:
 
+RAG Q&A System Ready! Type 'quit' to exit.
+
+Question: give an overview of the pdf
+
+Answer: This document outlines a plan for developing an Android app focused on tenant search and PG (Paying Guest) management. 
+
+**Key Features:**
+
+* **Tenant Search:**  Users can search for suitable PG accommodations.
+* **PG Details:**  Comprehensive information about available PGs.
+* **Booking:**  A streamlined booking process for tenants.
+* **Admin Features:** Basic administrative functionalities for managing the platform.
+
+**Development Process:**
+
+* **Sprint-Based:** The project is structured into sprints with specific tasks and deadlines.
+* **Tools:**  Android Studio, Figma, Firebase, GitHub, and Postman are utilized for coding, design, backend integration, version control, and API testing.
+* **AI Assistance:** GitHub Copilot is employed for code suggestions and debugging.
+* **Testing:** JUnit is used for unit testing, and Firebase App Distribution handles test APK distribution.
+
+**Deliverables:**
+
+* **Android APK:** A functional app with all the aforementioned features.
+* **GitHub Repository:**  Source code, well-documented, in a private repository.
+* **Demo Video:** A short video showcasing the app's functionality.
+* **Documentation:**  A guide on running the app and using Firebase.
+* **Optional Figma Prototype:**  Interactive prototypes of key screens (if time permits).
+
+**Previous Work:**
+
+The developer highlights two previous projects: a movie streaming app and an urban service app, both built with Jetpack Compose and Kotlin.
+
+
+Let me know if you have any other questions.
+
+
+Sources:
+[Chunk 1]: – Fix UI bugs and ensure the app looks good on all devices.
+– Task: Wrapping up admin features and testing.
+• Day 13-14: Final Touches
+– Create a demo APK and record a short video showing the app.
+– W... (Page: N/A)
+[Chunk 2]: After the sprint, Ill deliver:
+• Android APK: A working app with tenant search, PG details, booking, and basic owner/admin
+features.
+• GitHub Repo : All code, documented, in a private repo.
+• Demo Vid... (Page: N/A)
+[Chunk 3]: 8.1 AI Usage
+• Code Help : GitHub Copilot to suggest small code snippets (e.g., ViewModel boilerplate).
+• Debugging: Copilot to spot errors like missing null checks.
+• Manual Work: Ill write UI code, ... (Page: N/A)
+
+Question: quit
+
 ## Code Structure
 - **Cell 1-2**: Dependencies and setup (embeddings, LLM).
 - **Cell 3**: Load and split documents.
